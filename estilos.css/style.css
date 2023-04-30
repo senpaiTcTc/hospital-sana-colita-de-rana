@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans';
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+#contenedor{
+    margin: auto;
+    margin-top: 90px;
+    width: 1450px;
+    height: 1000px;
+    background-color: brown;
+}
+#contenedor1{
+    width: 1400px;
+    height: 960px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: aqua;
+}
+#contenedo-navegacion{
+    margin-top: 10px;
+    width: 1400px;
+    height: 46px;
+    background-color: darkgreen;
+}
+.menu-NA{
+    border-radius: 4px;
+    margin: 10px;
+    float: left;
+    width: 900px;
+    height: 28px;
+    background-color: chocolate;
+}
+
+.menu-NA nav ul li{
+    list-style: none;
+    margin-left: 95px;
+    padding: 3px 0 ;
+    float: left;
+}
+.menu-NA nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+
+}
+.buscar{
+    border-radius: 4px;
+    margin-top: 3px;
+    float: left;
+    width: 450px;
+    height: 30px;
+    background-color: chocolate;
+}
+.box{
+    background-color: #eee;
+    width: 450px;
+    height: 39px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+input{
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.fa-magnifying-glass:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+#contenedor2{
+    margin-top: 10px;
+    width: 1400px;
+    height: 745px;
+    background-color: darkorange;
+}
+
+#subcontenedor2{
+    float: left;
+    width: 460px;
+    height: 745px;
+    background-color: deeppink;
+}
+.menu-SE{
+    border-radius: 10px;
+    width: 410px;
+    height: 200px;
+    background-color: papayawhip;
+}
+.menu-SE h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.servicios1{
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    margin-top: 1px;
+    width: 350px;
+    height: 140px;
+    background-color: grey;
+    opacity: .9;
+}
+.noticia{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 440px;
+    height: 195px;
+    background-color: papayawhip;
+}
+.noti{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+    margin-top: 10px;
+    width: 440px;
+    height: 195px;
+    background-color: grey;
+    opacity: .9;
+}
+.informacion{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 440px;
+    height: 310px;
+    background-color: papayawhip;
+}
+.informacion h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.informacion p{
+    padding: 10px;
+    text-align: justify;
+}
+
+#subcontenedor3{
+    float: left;
+    width: 470px;
+    height: 745px;
+    background-color: deeppink;
+}
+.galeria-IMG{ 
+    border-radius: 10px;
+    margin-left: 5px; 
+    width: 450px; 
+    height: 320px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(85px,1fr));
+    gap: 30px;
+    background-color: papayawhip; 
+}
+.galeria-IMG img{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.galeria-IMG img:hover{
+    transform: scale(1.2);
+}
+.mapa{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 450px;
+    height: 405px;
+    background-color: papayawhip;
+}
+.mapa h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.mapa iframe{
+    border-radius: 10px;
+    width: 450px;
+    height: 358px;
+}
+
+#subcontenedor4{
+    float: left;
+    width: 470px;
+    height: 745px;
+    background-color: deeppink;
+}
+.redes{
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 440px;
+    height: 140px;
+    background-color: papayawhip;
+}
+.redes h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.redes img{
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+
+}
+.calendar{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 440px;
+    height: 250px;
+    background-color: papayawhip;
+}
+.calendar__info{
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.calendar__month, .calendar__year{
+    padding: .5em 1em;
+}
+.calendar__prev, .calendar__next{
+    color: red;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+.calendar__prev{
+    margin-right: auto;
+}
+.calendar__next{
+    margin-left: auto;
+}
+.calendar__week, .calendar__dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+.calendar__day{
+    text-align: center;
+    line-height: 2;
+}
+.tagboard{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 440px;
+    height: 171px;
+    background-color: papayawhip;
+}
+.tagboard h2{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.copyright{
+    margin-top: 10px;
+    width: 1400px;
+    height: 35px;
+    background-color: lightgreen;
+}
